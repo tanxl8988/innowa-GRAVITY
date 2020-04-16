@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Innowa
+
+  Created by Mac on 17/7/25.
+  Copyright © 2017年 APK. All rights reserved.
+*/
+"NSPhotoLibraryUsageDescription" = "動画・静止画のダウンロード、シェアなどに使用します。";
+CFBundleDisplayName = "innowa GRAVITY";

@@ -1,0 +1,285 @@
+/* 
+  Localizable.strings
+  Innowa
+
+  Created by Mac on 17/3/28.
+  Copyright © 2017年 APK. All rights reserved.
+*/
+
+//摄像机页面
+"摄像机" = "Live View";
+"录制事件失败！" = "Failed to lock current file!";
+"录制事件成功！" = "Current file locked!";
+"拍摄照片失败！" = "Failed to capture the picture!";
+"拍摄照片成功！" = "Picture captured!";
+"未连接" = "GRAVITY M1 not found";
+"未连接提示" = "1. Please check if the DVR is turned on and is returned to recording mode. \n2. Please check if the phone is connected to the DVR via Wi-Fi (Go to setting ->Wi-Fi). ";
+"切换镜头成功！" = "Camera switched!";
+"切换镜头失败！" = "Failed to switch camera!";
+
+//相册页面
+"相册" = "Gallery";
+"本地" = "Local";
+"DVR" = "DVR";
+"前镜头照片" = "Picture(Front camera)";
+"前镜头视频" = "Video(Front camera)";
+"前镜头事件" = "Event(Front camera)";
+"后镜头照片" = "Picture(Rear camera)";
+"后镜头视频" = "Video(Rear camera)";
+"后镜头事件" = "Event(Rear camera)";
+"我的收藏" = "My Collection";
+"DVR照片" = "DVR Picture";
+"DVR视频" = "DVR Video";
+"DVR事件" = "DVR Event";
+"本地照片" = "Local Picture";
+"本地视频" = "Local Video";
+"本地事件" = "Local Event";
+"DVR前镜头照片" = "DVR Picture(Front camera)";
+"DVR后镜头照片" = "DVR Picture(Rear camera)";
+"DVR前镜头视频" = "DVR Video(Front camera)";
+"DVR后镜头视频" = "DVR Video(Rear camera)";
+"DVR前镜头事件" = "DVR Event(Front camera)";
+"DVR后镜头事件" = "DVR Event(Rear camera)";
+"本地前镜头照片" = "Local Picture(Front camera)";
+"本地后镜头照片" = "Local Picture(Rear camera)";
+"本地前镜头视频" = "Local Video(Front camera)";
+"本地后镜头视频" = "Local Video(Rear camera)";
+"本地前镜头事件" = "Local Event(Front camera)";
+"本地后镜头事件" = "Local Event(Rear camera)";
+
+"DVR前镜头照片列表" = "DVR Picture(Front)";
+"DVR后镜头照片列表" = "DVR Picture(Rear)";
+"DVR前镜头视频列表" = "DVR Video(Front)";
+"DVR后镜头视频列表" = "DVR Video(Rear)";
+"DVR前镜头事件列表" = "DVR Event(Front)";
+"DVR后镜头事件列表" = "DVR Event(Rear)";
+"本地前镜头照片列表" = "Local Picture(Front)";
+"本地后镜头照片列表" = "Local Picture(Rear)";
+"本地前镜头视频列表" = "Local Video(Front)";
+"本地后镜头视频列表" = "Local Video(Rear)";
+"本地前镜头事件列表" = "Local Event(Front)";
+"本地后镜头事件列表" = "Local Event(Rear)";
+
+"照片" = "Picture";
+"视频" = "Normal";
+"事件" = "Event";
+"选择" = "Select";
+"取消" = "Cancel";
+"全选" = "Select All";
+"确定" = "Confirm";
+"%d个文件删除失败！" = "Failed to delete %d file(s)";
+"删除%d个文件？" = "Delete %d file(s)?";
+"删除该文件？" = "Sure to delete file(s)?";
+"共有%d个文件" = "Total %d file(s)";
+"下载" = "Download";
+"加载视频失败！" = "Failed to load!";
+"该视频不可播放！" = "Failed to play!";
+"保存失败！" = "Failed to save!";
+
+//设置页面
+"设置" = "Setting";
+"录影" = "Recording";
+"档案" = "File";
+"设定" = "Setting";
+"进阶" = "Advanced";
+
+"影像解析度" = "Resolution";
+"录影间隔" = "Record Interval";
+"荧幕设定" = "LCD Setting";
+"声音记录" = "Voice Record";
+"碰撞侦测" = "Vibration Sensitivity";
+"时间标记" = "Time Stamp";
+"停车模式" = "Parking Mode";
+"电源频率" = "Flickering Frequency";
+"曝光值" = "Exposure Value";
+"格式化" = "Format";
+"SD卡状态" = "SD Card Status";
+"Wi-Fi设置" = "Wi-Fi Setting";
+"时间设定" = "Manual Date/Time";
+"时间设定提示" = "Note: The app will only set the manual time for the DVR but will not show the original manual time of the DVR.";
+"设定时区" = "Satellite Time Zone";
+"卫星时间同步" = "Satellite Synchronization";
+"音效设定" = "Key Tone";
+"音量" = "Volume";
+"语言设定" = "DVR Language/言語";
+"速度单位" = "Speed Unit";
+"自定限速提示" = "Speed Limit Alert";
+"测速相机提示" = "Speed Cam Alert";
+"自订测速点管理" = "Camera Position Setting";
+"恢复出厂设置" = "Default";
+"软件版本" = "DVR Firmware Version";
+"帮助" = "Help";
+"关于innowa" = "About innowa";
+"innowa简介" = "innowa values technology innovation, user-friendly experience and reliable performance.";
+"关注我们" = "Follow us";
+"联系我们及支援" = "Contact & Support";
+
+"设置正在更新中" = "Setting being updated";
+"设置成功！" = "Setting changed";
+"设置失败！" = "Failed to change the setting";
+"记录仪录像已停止" = "To access APP remote setting, DVR recording has been stopped. ";
+"记录仪录像已恢复" = "DVR recording has been resumed. ";
+
+//设置选项
+"30秒钟" = "30 seconds";
+"1分钟" = "1 mintues";
+"3分钟" = "3 mintues";
+"开" = "On";
+"关" = "Off";
+"7秒后关闭" = "Turn Off After 7 Sec";
+"1分钟后关闭" = "Turn Off After 1 min";
+"3分钟后关闭" = "Turn Off After 3 min";
+"低灵敏度" = "Low Sensitivity";
+"中灵敏度" = "Normal Sensitivity";
+"高灵敏度" = "High Sensitivity";
+"震动侦测" = "Vibration Detection";
+"移动侦测" = "Motion Detection";
+"自动侦测" = "Auto";
+"英" = "English";
+"繁中" = "繁體中文";
+"日" = "日本語";
+"增加自订测速点" = "Add Speed Point";
+"删除上一个自订测速点" = "Delete Last Position";
+"删除所有自订测速点" = "Delete All Position";
+
+//Wi-Fi设置页面
+"Wi-Fi名称" = "Wi-Fi Name";
+"Wi-Fi密码" = "Wi-Fi Password";
+"获取Wi-Fi信息失败！" = "Wi-Fi failed to reset！";
+"DVR将会重启Wi-Fi" = "Please go to Setting>Wi-Fi on your phone to log in to a new Wi-Fi account. ";
+"Wi-Fi名称格式错误" = "Usernames can contain letters (a-z) and numbers (0-9), with a maximum of 27 characters.";
+"Wi-Fi密码格式错误" = "Passwords must contain at least 8 characters with a mix of letters and numbers, with a maximum of 16 characters.";
+
+//SD卡状态页面
+"%.2f GB已使用空间" = "%.2f GB has been used";
+"%.2f GB可用空间" = "%.2f GB has left";
+"SD卡容量：%.2fGB" = "SD Card capacity: %.2fGB";
+
+"格式化記憶卡" = "Format SD Card";
+"格式化步骤" = "Please implement the formatting in the DVR.\nProcedures as follows:\nMenu>FILE: Format";
+"是否恢复出厂设置？" = "Reset to Factory Defaults?";
+"恢复出厂设置失败！" = "Factory Default Failed!";
+"恢复出厂设置成功！" = "Factory Default Succeeded!";
+
+//设置时间
+"自动同步" = "Automatic Synchronization";
+"手动设置" = "Set manually";
+"请先关闭自动同步功能！" = "Please turn off the Automatic synchronization!";
+
+
+//帮助
+"1.行车记录仪死机" = "1. To connect your smartphone to the DVR";
+"（1）按RESET重启后查看\n（2）存储卡是否损坏" = "(1) Connect Wi-Fi according to the instruction manual of your smartphone. \n(2) The Wi-Fi network name of the DVR is [innowaGravity_XXXXX]. (X is any number.) \n(3) The password is [innowa1234].";
+
+"2.行车记录仪无法开机" = "2. To share images/videos";
+"(1) Please download the image/video you want to share to your smartphone. \n(2) Please press the share icon. \n(3) Disconnect Wi-Fi before sharing the file. (Wi-Fi will be turned off and will not automatically turn on again, so you will need to connect to Wi-Fi again after sharing the video/ image file.) \n(4) The corresponding applications pop up. Select the platform you want to share. ";
+
+"3.视频在电脑上回放的时候出现停顿或跳帧" = "3. Why the videos were paused or flashing when I was playing the videos on the computer? ";
+"（1）使用格式化功能，格式化您的TF卡\n（2）检查您的卡是否为品牌原装正版卡" = "Please go to 'Setting' on the APP or 'Menu' on the DVR, and select 'Format'.";
+
+"4.影像录制后朦胧或者模糊一片" = "4. Why the videos were blurry?";
+"将镜头擦拭干净。" = "Please try to wipe the camera with cleaner";
+
+"5.WIFI连不上" = "5. Why the Wi-Fi was disconnected?";
+"（1）检查是否安装手机app\n（2）检查一下行车记录仪是否开启，且是否有电\n（3）wifi连接需要输入密码，具体操作请查看下说明书\n（4）如果以上方法都不能够解决，按RESET重启机器" = "1.Please check the DVR and make sure it is powered on.\n2.Please check the Wi-Fi connection. If this is your first time login, please check the procedures on the user manual and follow the steps to connect the Wi-Fi again.\n3.If the above solution is not working. Please press the reset button on the DVR, and return to factory default. ";
+
+"请允许Journey访问iPhone的\"照片\"，否则无法使用下载功能！" = "Photos is used to save and share photos and videos.";
+
+
+"录影设定" = "Recording Setting";
+"文件设定" = "File Setting";
+"一般设定" = "Normal Setting";
+"详细设定" = "Advanced Setting";
+"APP设定" = "APP Setting";
+
+"缩时录影" = "Parking Time Lapse";
+"泊车模式事件" = "Parking Event";
+"收藏" = "Collection";
+"编辑" = "編輯";
+"自动侦测" = "Auto";
+"APP更新" = "APP Update";
+"已是最新版本" = "已是最新版本";
+"即将跳转到App Store，是否继续？" = "即將跳轉到App Store，是否繼續？";
+
+"最近" = "Recent";
+"群组" = "Group";
+"全部" = "All";
+"自定义" = "Customer";
+
+"后置影像解析度" = "Resolution Rear";
+"循环录影模式" = "Loop Recording";
+"自动隐藏下方显示列" = "Hide Menu Bar Automatically";
+"泊车模式档案保存" = "Parking Mode Loop Recording";
+"预设屏幕显示" = "Default Screen Display";
+"APP版本号" = "APP Version";
+"后镜头录像" = "Rear Camera Video";
+
+"在泊车模式下查看SD卡档案已自动退出泊车模式。请在主机长按P键重新进入停车模式" = "Reading SD card files automatically quits Parking Mode. Please press and hold “P” to re-enter Parking Mode.";
+"正在紧急录像中" = "Current file locking";
+"如欲浏览更过常见问题，请按" = "For more FAQ, please visit";
+"此" = "here";
+
+"循環錄影所有檔案" = "All Loop Recording";
+"禁止事件檔案循環錄影" = "Loop Recording Except Event";
+"禁止所有檔案循環錄影" = "No Loop Recording";
+
+"循環錄影所有檔案 " = "All Loop Recording";
+"禁止事件檔案循環錄影 " = "TLapse Loop Recording";
+
+"前鏡頭為主" = "Front Main,Rear PIP";
+"後鏡頭為主" = "Rear Main,Front PIP";
+"只顯示前鏡" = "Front Only";
+"只顯示後鏡" = "Rear Only";
+
+"正常" = "Normal";
+"上下倒轉" = "Up Side Down";
+"鏡像" = "Mirrored";
+
+"登陆" = "Login";
+"跳过" = "Skip";
+"注册" = "Register";
+
+"前" = "Front";
+"后" = "Rear";
+"停车模式中无法修改设置，请手动退出" = "Settings cannot be changed during Parking Mode, please quit parking mode manually!";
+"當使用此應用程式時，你會被視作已同意其" = "When using this app, it will be deemed that you agree to the Privacy Policy  ";
+"私隱政策" = "Privacy Policy";
+
+"當使用此應用程式時" = "When using this app,";
+"你會被視作已同意其" = "it will be deemed that you agree to the";
+
+"当已设定停车模式" = "When Parking Mode is Set";
+"当没有设定停车模式" = "When Parking Mode is Not Set";
+
+"SD卡容量" = "SD Card capacity";
+"如要自定靈敏度請到記錄儀上設置" = "Please do the setting in DVR for customized values";
+"自定义:" = "Customize:";
+
+"登陆失败" = "Login Failed";
+"登陆成功" = "Login Success";
+"用户名" = "User Email";
+"密码" = "Password";
+"记住密码" = "Remember me";
+
+"泊車模式長度" = "Parking Mode Duration";
+"時常開啟" = "Always On";
+"30分鐘" = "30Min";
+"0小時" = "0H";
+"1小時" = "1H";
+"6小時" = "6H";
+"12小時" = "12H";
+"開始時間" = "Begin Time";
+"結束時間" = "End Time";
+"截取图片成功" = "Successful screenshots";
+
+"請先在記錄儀內解除保護檔案"= "Please firstly unprotect the file using DVR";
+"没有文件" = "No file";
+"結束時間不可早於開始時間，請重新設定" = "The end time cannot be earlier than start time, please set again";
+"請在記錄儀內關閉泊車模式" = "Please switch off parking mode using DVR";
+"請先在記錄儀內設定泊⾞模式" = "Please set parking mode on DVR first.";
+
+"一般" = "Standard";
+"高" = "High";
+"非常高" = "Very High";
+
+"移動偵測靈敏度" = "Mtn Detection Sensitivity";

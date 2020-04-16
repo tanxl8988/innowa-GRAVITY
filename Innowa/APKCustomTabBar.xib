@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="APKCustomTabBar">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V75-th-cKq">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="tmV-HY-wj1"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBa-1d-jvU">
+                    <rect key="frame" x="26" y="8" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="10"/>
+                    <state key="normal" image="icon-1"/>
+                    <state key="disabled" image="icon-0"/>
+                    <state key="selected" image="icon-0"/>
+                    <connections>
+                        <action selector="clickButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="kxs-7o-CXQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nph-yY-Jb3">
+                    <rect key="frame" x="152" y="9" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="10"/>
+                    <state key="normal" image="icon-3"/>
+                    <state key="disabled" image="icon-2"/>
+                    <state key="selected" image="icon-2"/>
+                    <state key="highlighted" image="icon-2"/>
+                    <connections>
+                        <action selector="clickButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ynm-qe-0By"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zh-fB-X0z">
+                    <rect key="frame" x="276" y="8" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="10"/>
+                    <state key="normal" image="icon-5"/>
+                    <state key="disabled" image="icon-4"/>
+                    <state key="selected" image="icon-4"/>
+                    <state key="highlighted" image="tabbar_settings_highlight"/>
+                    <connections>
+                        <action selector="clickButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="WVu-CL-qsu"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KCj-0y-88p">
+                    <rect key="frame" x="250" y="9" width="1" height="62"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="摄像机" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5C-XJ-ljf">
+                    <rect key="frame" x="0.0" y="54" width="125" height="18"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设置" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cW9-gN-mak">
+                    <rect key="frame" x="250" y="54" width="125" height="18"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="相册" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7u-S4-AnI">
+                    <rect key="frame" x="125" y="54" width="125" height="18"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="78X-2S-s7f">
+                    <rect key="frame" x="124" y="8" width="1" height="62"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="cW9-gN-mak" firstAttribute="width" secondItem="w5C-XJ-ljf" secondAttribute="width" id="1Ue-lt-ioR"/>
+                <constraint firstItem="V75-th-cKq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2Wt-Mt-Ktu"/>
+                <constraint firstItem="cW9-gN-mak" firstAttribute="leading" secondItem="i7u-S4-AnI" secondAttribute="trailing" id="3hM-qm-qTu"/>
+                <constraint firstItem="w5C-XJ-ljf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="41e-uB-m4s"/>
+                <constraint firstItem="cW9-gN-mak" firstAttribute="leading" secondItem="i7u-S4-AnI" secondAttribute="trailing" id="5GV-c5-iHQ"/>
+                <constraint firstAttribute="bottom" secondItem="w5C-XJ-ljf" secondAttribute="bottom" constant="8" id="Aet-vS-ycn"/>
+                <constraint firstAttribute="trailing" secondItem="V75-th-cKq" secondAttribute="trailing" id="DVf-Wl-zns"/>
+                <constraint firstAttribute="bottom" secondItem="cW9-gN-mak" secondAttribute="bottom" constant="8" id="EJ1-cH-60M"/>
+                <constraint firstItem="i7u-S4-AnI" firstAttribute="leading" secondItem="w5C-XJ-ljf" secondAttribute="trailing" id="GCX-NW-AOu"/>
+                <constraint firstAttribute="trailing" secondItem="cW9-gN-mak" secondAttribute="trailing" id="GQr-Af-GjX"/>
+                <constraint firstItem="i7u-S4-AnI" firstAttribute="leading" secondItem="w5C-XJ-ljf" secondAttribute="trailing" id="Lzp-11-ok2"/>
+                <constraint firstItem="V75-th-cKq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="TDj-QQ-Bue"/>
+                <constraint firstItem="i7u-S4-AnI" firstAttribute="width" secondItem="w5C-XJ-ljf" secondAttribute="width" id="okh-NL-bYe"/>
+                <constraint firstAttribute="bottom" secondItem="i7u-S4-AnI" secondAttribute="bottom" constant="8" id="pVx-Qf-Zvb"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="leftButton" destination="rBa-1d-jvU" id="pi0-Ht-XJN"/>
+                <outlet property="leftLabel" destination="w5C-XJ-ljf" id="Lnc-ej-vaS"/>
+                <outlet property="middleButton" destination="nph-yY-Jb3" id="GhL-8C-hIc"/>
+                <outlet property="middleLabel" destination="i7u-S4-AnI" id="HRT-qA-fae"/>
+                <outlet property="rightButton" destination="4zh-fB-X0z" id="AIH-eM-lXc"/>
+                <outlet property="rightLabel" destination="cW9-gN-mak" id="xAD-Js-gvo"/>
+            </connections>
+            <point key="canvasLocation" x="31.199999999999999" y="25.187406296851577"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-0" width="121" height="121"/>
+        <image name="icon-1" width="121" height="121"/>
+        <image name="icon-2" width="121" height="121"/>
+        <image name="icon-3" width="121" height="121"/>
+        <image name="icon-4" width="121" height="121"/>
+        <image name="icon-5" width="121" height="121"/>
+        <image name="tabbar_settings_highlight" width="60" height="60"/>
+    </resources>
+</document>

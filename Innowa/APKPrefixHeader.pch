@@ -1,0 +1,21 @@
+//
+//  APKPrefixHeader.pch
+//  Innowa
+//
+//  Created by Mac on 17/6/2.
+//  Copyright © 2017年 APK. All rights reserved.
+//
+
+#ifndef APKPrefixHeader_pch
+#define APKPrefixHeader_pch
+
+// 在release版本禁止输出NSLog内容
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define NSLog(...)
+#define debugMethod()
+#endif
+#define KWEAKSELF typeof(self) __weak weakSelf = self
+#endif /* APKPrefixHeader_pch */

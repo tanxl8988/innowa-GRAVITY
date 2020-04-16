@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Pioneer.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>9AFADB22F43701C688A32D9F3E2B5690493002D4</string>
+				<key>dateExpires</key>
+				<string>2019/4/26</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>GDME24U7FM.jp.pioneer.mbg.DriveRecorderInterface</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>GDME24U7FM</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>GDME24U7FM.jp.pioneer.mbg.DriveRecorderInterface</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Pioneer.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>44479298-90e0-4faf-94fd-ba5bf8b2496f</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: jp.pioneer.mbg.DriveRecorderInterface</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>GDME24U7FM</string>
+				<key>name</key>
+				<string>Pioneer Corporation</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
